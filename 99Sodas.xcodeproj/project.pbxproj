@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE26C81C19C6978000FC74C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE26C81B19C6978000FC74C1 /* AppDelegate.swift */; };
+		BE26C81E19C6978000FC74C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE26C81D19C6978000FC74C1 /* ViewController.swift */; };
+		BE26C82119C6978000FC74C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE26C81F19C6978000FC74C1 /* Main.storyboard */; };
+		BE26C82319C6978000FC74C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE26C82219C6978000FC74C1 /* Images.xcassets */; };
+		BE26C82619C6978000FC74C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE26C82419C6978000FC74C1 /* LaunchScreen.xib */; };
+		BE26C83219C6978000FC74C1 /* _9SodasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE26C83119C6978000FC74C1 /* _9SodasTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE26C82C19C6978000FC74C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE26C80E19C6978000FC74C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE26C81519C6978000FC74C1;
+			remoteInfo = 99Sodas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE26C81619C6978000FC74C1 /* 99Sodas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 99Sodas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE26C81A19C6978000FC74C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE26C81B19C6978000FC74C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE26C81D19C6978000FC74C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE26C82019C6978000FC74C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE26C82219C6978000FC74C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE26C82519C6978000FC74C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BE26C82B19C6978000FC74C1 /* 99SodasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 99SodasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE26C83019C6978000FC74C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE26C83119C6978000FC74C1 /* _9SodasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _9SodasTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE26C81319C6978000FC74C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE26C82819C6978000FC74C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE26C80D19C6978000FC74C1 = {
+			isa = PBXGroup;
+			children = (
+				BE26C81819C6978000FC74C1 /* 99Sodas */,
+				BE26C82E19C6978000FC74C1 /* 99SodasTests */,
+				BE26C81719C6978000FC74C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE26C81719C6978000FC74C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE26C81619C6978000FC74C1 /* 99Sodas.app */,
+				BE26C82B19C6978000FC74C1 /* 99SodasTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE26C81819C6978000FC74C1 /* 99Sodas */ = {
+			isa = PBXGroup;
+			children = (
+				BE26C81B19C6978000FC74C1 /* AppDelegate.swift */,
+				BE26C81D19C6978000FC74C1 /* ViewController.swift */,
+				BE26C81F19C6978000FC74C1 /* Main.storyboard */,
+				BE26C82219C6978000FC74C1 /* Images.xcassets */,
+				BE26C82419C6978000FC74C1 /* LaunchScreen.xib */,
+				BE26C81919C6978000FC74C1 /* Supporting Files */,
+			);
+			path = 99Sodas;
+			sourceTree = "<group>";
+		};
+		BE26C81919C6978000FC74C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE26C81A19C6978000FC74C1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE26C82E19C6978000FC74C1 /* 99SodasTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE26C83119C6978000FC74C1 /* _9SodasTests.swift */,
+				BE26C82F19C6978000FC74C1 /* Supporting Files */,
+			);
+			path = 99SodasTests;
+			sourceTree = "<group>";
+		};
+		BE26C82F19C6978000FC74C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE26C83019C6978000FC74C1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE26C81519C6978000FC74C1 /* 99Sodas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE26C83519C6978000FC74C1 /* Build configuration list for PBXNativeTarget "99Sodas" */;
+			buildPhases = (
+				BE26C81219C6978000FC74C1 /* Sources */,
+				BE26C81319C6978000FC74C1 /* Frameworks */,
+				BE26C81419C6978000FC74C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 99Sodas;
+			productName = 99Sodas;
+			productReference = BE26C81619C6978000FC74C1 /* 99Sodas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE26C82A19C6978000FC74C1 /* 99SodasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE26C83819C6978000FC74C1 /* Build configuration list for PBXNativeTarget "99SodasTests" */;
+			buildPhases = (
+				BE26C82719C6978000FC74C1 /* Sources */,
+				BE26C82819C6978000FC74C1 /* Frameworks */,
+				BE26C82919C6978000FC74C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE26C82D19C6978000FC74C1 /* PBXTargetDependency */,
+			);
+			name = 99SodasTests;
+			productName = 99SodasTests;
+			productReference = BE26C82B19C6978000FC74C1 /* 99SodasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE26C80E19C6978000FC74C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Kenneth Wilcox";
+				TargetAttributes = {
+					BE26C81519C6978000FC74C1 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					BE26C82A19C6978000FC74C1 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BE26C81519C6978000FC74C1;
+					};
+				};
+			};
+			buildConfigurationList = BE26C81119C6978000FC74C1 /* Build configuration list for PBXProject "99Sodas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE26C80D19C6978000FC74C1;
+			productRefGroup = BE26C81719C6978000FC74C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE26C81519C6978000FC74C1 /* 99Sodas */,
+				BE26C82A19C6978000FC74C1 /* 99SodasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE26C81419C6978000FC74C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE26C82119C6978000FC74C1 /* Main.storyboard in Resources */,
+				BE26C82619C6978000FC74C1 /* LaunchScreen.xib in Resources */,
+				BE26C82319C6978000FC74C1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE26C82919C6978000FC74C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE26C81219C6978000FC74C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE26C81E19C6978000FC74C1 /* ViewController.swift in Sources */,
+				BE26C81C19C6978000FC74C1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE26C82719C6978000FC74C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE26C83219C6978000FC74C1 /* _9SodasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE26C82D19C6978000FC74C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE26C81519C6978000FC74C1 /* 99Sodas */;
+			targetProxy = BE26C82C19C6978000FC74C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE26C81F19C6978000FC74C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE26C82019C6978000FC74C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE26C82419C6978000FC74C1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE26C82519C6978000FC74C1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE26C83319C6978000FC74C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE26C83419C6978000FC74C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE26C83619C6978000FC74C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 99Sodas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE26C83719C6978000FC74C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 99Sodas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE26C83919C6978000FC74C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = 99SodasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/99Sodas.app/99Sodas";
+			};
+			name = Debug;
+		};
+		BE26C83A19C6978000FC74C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = 99SodasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/99Sodas.app/99Sodas";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE26C81119C6978000FC74C1 /* Build configuration list for PBXProject "99Sodas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE26C83319C6978000FC74C1 /* Debug */,
+				BE26C83419C6978000FC74C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE26C83519C6978000FC74C1 /* Build configuration list for PBXNativeTarget "99Sodas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE26C83619C6978000FC74C1 /* Debug */,
+				BE26C83719C6978000FC74C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE26C83819C6978000FC74C1 /* Build configuration list for PBXNativeTarget "99SodasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE26C83919C6978000FC74C1 /* Debug */,
+				BE26C83A19C6978000FC74C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE26C80E19C6978000FC74C1 /* Project object */;
+}
